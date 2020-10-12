@@ -60,7 +60,7 @@ namespace WCF_Logicmedia_adress_toLangLong.Controller {
 
         public async Task<OpenAPI> CallOpenGeo() {
 
-            string OpenKey = "iudpJbAMs5YkTvUyulfpVBgcpp3N6wtx";
+            string OpenKey = "";
             using (var client = new HttpClient()) {
                 List<Address> ad = (List<Address>)GetAddresses();
                 string address1 = "Nøddelunden 38";
