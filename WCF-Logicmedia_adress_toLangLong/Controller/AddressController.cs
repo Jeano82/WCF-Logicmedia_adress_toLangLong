@@ -25,7 +25,7 @@ namespace WCF_Logicmedia_adress_toLangLong.Controller {
         }
 
         public async Task<Lat_Long_Model> CallAPI() {
-            string KEY = "AIzaSyCTfCEHNq6KlRunHFkg_boDvsoKrwhKXL8";
+            string KEY = "";
             using (var client = new HttpClient()) {
                 List<Address> ad = (List<Address>)GetAddresses();
                 string address1 = "Nøddelunden 38";
